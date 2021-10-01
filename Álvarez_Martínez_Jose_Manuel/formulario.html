@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Formulario</title>
+  </head>
+
+  <body>
+    <form method="POST" action="https://www.google.com">
+      <fieldset>
+        <legend>Validación de datos</legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required />
+        <br />
+        <label for="usernm">Nombre de usuario:</label>
+        <input type="text" id="usernm" required />
+        <br />
+        <label for="contra">Contraseña:</label>
+        <input type="password" id="contra" required />
+        <br />
+        <label for="contra">Vuelva a escribir la contraseña:</label>
+        <input type="password" id="contra2" required />
+        <br />
+        <label for="gnro">Genero:</label>
+        <input type="radio" id="gnro" name="gnr" />Hombre
+        <input type="radio" id="gnro2" name="gnr" />Mujer
+        <input type="radio" id="gnro3" name="gnr" />Otro <br />
+        <label for="lpro">Lenguaje de programación:</label>
+        <input type="radio" id="lpro" name="lpr" />Java
+        <input type="radio" id="lpro2" name="lpr" />Android
+        <input type="radio" id="lpro3" name="lpr" />Ruby
+        <input type="radio" id="lpro4" name="lpr" />Net <br />
+        <label for="telf">Telf. de contacto:</label>
+        <input type="tel" name="telf" id="telf" /> <br />
+        <label for="correoe">Correo electrónico:</label>
+        <input type="email" name="correlec" id="correoe" /> <br />
+        <label for="uni">Universidad:</label>
+        <select name="univ" id="uni">
+          <option disabled selected>Seleccionar universidad</option>
+          <option>Universidad de Vigo</option>
+          <option>Universidad de Madrid</option>
+          <option>Universidad de Santiago</option></select
+        ><br />
+        <button>Enviar</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
